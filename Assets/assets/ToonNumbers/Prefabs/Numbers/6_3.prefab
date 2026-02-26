@@ -472,6 +472,7 @@ GameObject:
   - component: {fileID: 5054868918543475429}
   - component: {fileID: 9027203984410285287}
   - component: {fileID: 2205133454972899035}
+  - component: {fileID: 755799805187349220}
   m_Layer: 0
   m_Name: 6_3
   m_TagString: Untagged
@@ -568,8 +569,22 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 80
+  m_Constraints: 112
   m_CollisionDetection: 0
+--- !u!114 &755799805187349220
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5054868918534082853}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 785c0096fb264e84d890d056335971e2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 5
+  joystick2: {fileID: 0}
 --- !u!1 &5054868918534082855
 GameObject:
   m_ObjectHideFlags: 0
